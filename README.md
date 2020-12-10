@@ -37,10 +37,14 @@ Move the location of the downloaded dataset to the object_recognition directory.
 If everything is good, pascal_ds.py file will run perfectly.
 
 
+You can also run the object detection algorithm using pytorch. 
 
+Install the necessary dependancies, make sure the python_model.py is in the same directory as the dataset.
 
+Run the code using 
+python python_model.py
 
-
+If the system is cuda compatible, code will run without any errors. If your system doesn't have a gpu, remove the functions with cuda commands on it and execute the program again. 
 
 
 
