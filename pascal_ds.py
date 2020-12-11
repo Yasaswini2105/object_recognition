@@ -1,5 +1,5 @@
 
-# evaluate the mask rcnn model on the kangaroo dataset
+# evaluate the mask rcnn model on the dataset
 from os import listdir
 from xml.etree import ElementTree
 from numpy import zeros
